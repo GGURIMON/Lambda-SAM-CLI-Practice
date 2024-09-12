@@ -1,0 +1,9 @@
+{
+    "LambdaFunctionConfigurations": [
+        {
+          "Id": "EncryptPDFEventConfiguration",
+          "LambdaFunctionArn": "arn:aws:lambda:ap-northeast-2:605134440793:function:EncryptPDF",
+          "Events": [ "s3:ObjectCreated:Put" ]
+        }
+      ]
+    }
